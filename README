@@ -1,0 +1,17 @@
+jquery.fancybox from http://fancybox.net/ with some smaller enhancements.
+
+2010-11-16 
+Added two options that allow for fading in the overlay as well as for setting the speed for fading it out.
+
+    overlaySpeedIn: 500,
+    overlaySpeedOut: 500
+
+
+2011-03-31    
+Added a callback that decides if the overlay should really be closed:
+    
+    onBeforeClose: function() {
+        return window.confirm('Are you sure you want to close?');
+    }
+    
+If the method returns true, $.fancybox.close() will be called, otherwise it does nothing.
