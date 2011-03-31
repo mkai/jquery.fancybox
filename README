@@ -1,4 +1,4 @@
-jquery.fancybox from http://fancybox.net/ with some smaller enhancements.
+jquery.fancybox http://fancybox.net/ by Janis Skarnelis with some smaller enhancements.
 
 2010-11-16 
 Added two options that allow for fading in the overlay as well as for setting the speed for fading it out.
